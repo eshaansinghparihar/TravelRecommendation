@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #efefef;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* font-size: calc(10px + 2vmin); */
+  color: black;
 }
 
 .App-link {
@@ -35,4 +35,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Heading{
+  font-size: calc(20px + 3vmin);
+}
+
+.Input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 20px;
+  border: 0.5px solid black;
+  box-shadow: 8px 8px 8px #c9c5c5;
+}
+.search{
+width: 100%;
+/* padding: 2rem; */
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.Button{
+  border: 0.5px solid black;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px #c9c5c5;
+  padding: 1rem;
+  width: 15%;
+  margin:0.5rem;
+  font-weight: 800;
+  background-color: #0f0f0f; 
+  color: white;
+}
+.Button:hover {
+  background-color: black;
+  color: white;
+}
+.Buttonrow{
+  border: 0.5px solid black;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px #c9c5c5;
+  padding: 1rem;
+  /* width: 15%; */
+  margin:0.5rem;
+  font-weight: 800;
+  background-color: #0f0f0f; 
+  color: white;
+  
 }
