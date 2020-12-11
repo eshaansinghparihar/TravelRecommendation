@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #efefef;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,8 @@
   width: 70%;
   border-radius: 20px;
   border: 0.5px solid black;
-  box-shadow: 8px 8px 8px #c9c5c5;
+  /* box-shadow: 8px 8px 8px #c9c5c5; */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .search{
 width: 100%;
@@ -63,7 +64,8 @@ justify-content: center;
 .Button{
   border: 0.5px solid black;
   border-radius: 20px;
-  box-shadow: 8px 8px 8px #c9c5c5;
+  /* box-shadow: 8px 8px 8px #c9c5c5; */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   padding: 1rem;
   width: 15%;
   margin:0.5rem;
@@ -78,7 +80,8 @@ justify-content: center;
 .Buttonrow{
   border: 0.5px solid black;
   border-radius: 20px;
-  box-shadow: 8px 8px 8px #c9c5c5;
+  /* box-shadow: 8px 8px 8px #c9c5c5; */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   padding: 1rem;
   /* width: 15%; */
   margin:0.5rem;
@@ -87,3 +90,54 @@ justify-content: center;
   color: white;
   
 }
+.Buttonrownav{
+  /* border: 0.5px solid black; */
+  border-radius: 20px;
+  /* box-shadow: 8px 8px 8px #c9c5c5; */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  padding: 1rem;
+  /* width: 15%; */
+  margin:0.5rem;
+  font-weight: 800;
+  background-color: rgb(228, 69, 149); 
+  color: white;
+  
+}
+
+.card {
+  margin:0.8rem;
+  width:90%;
+  border-radius: 20px;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  align-items: center;
+justify-content: center;
+}
+
+.cardhigh{
+  margin:0.8rem;
+  width:90%;
+  padding-top: 4rem;
+  border-radius: 20px;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+  height:25vh;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+a { color:white }
+a { text-decoration: none; color:white}
+a:visited { text-decoration: none;color:white }
+a:hover { text-decoration: none; color:white}
+a:focus { text-decoration: none; color:white}
+a:hover, a:active { text-decoration: none; color:white}
